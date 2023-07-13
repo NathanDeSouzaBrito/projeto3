@@ -1,0 +1,66 @@
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* PARTE SUPERIOR */
+#Parte-Superior {
+    width: 100%;
+    height: 100px;
+    background: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #BABABA;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
+}
+#Parte-Superior div a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#menu {
+    display: flex;
+    width: 45%;
+    margin-left: 5%;
+    justify-content: space-around;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+}
+
+#Botao-PS {
+    width: 80px;
+    height: 39px;
+
+    background: #0C70F2;
+    box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.30);
+    
+    margin-right: 5%;
+    
+    color: #FFFFFF ;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0;
+}
+
+        /* CUSTOMIZAÇÃO */
+    #Parte-Superior div a:hover{
+        color: #CCCCCC;
+
+    }
+
+    #Parte-Superior button:hover{
+        transform: translateY(-1.5px);
+        transition-duration:0.5s;
+        cursor: pointer;
+    }
+
+/*  */
