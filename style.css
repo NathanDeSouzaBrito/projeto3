@@ -2,7 +2,18 @@
 body {
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #BABABA;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
+    background-repeat: no-repeat;
 }
+
+/* VARIAVEIS */
+:root{
+    --azul-DNC: #0C70F2;
+    --preto-DNC: #30303030;
+
+}
+
 
 /* PARTE SUPERIOR */
 #Parte-Superior {
@@ -13,8 +24,6 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    border-bottom: 1px solid #BABABA;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
 }
 #Parte-Superior div a{
     color: #FFFFFF;
@@ -63,4 +72,127 @@ body {
         cursor: pointer;
     }
 
-/*  */
+/* PARTE PRINCIPAL */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 3%;
+}
+
+header h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10%;
+}
+
+.Black {
+    background: black;
+}
+
+/* FORMULARIOS */
+
+.form-group {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.form-group  input{
+    display: flex;
+    width: 530px;
+    height: 40px;
+    align-items: center;
+
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.90);
+    border: 0;
+
+    /* parte dos placeholder */
+        color: rgba(57, 57, 57, 0.50);
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+}
+
+#box {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.checkbox {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.checkbox input {
+    margin-top: 15px;
+    width: 20px;
+    height: 22px;
+    flex-shrink: 0;
+
+    border: 2px solid #CCC;
+    background: #FFF;
+    margin: 10px;
+}
+
+#but {
+    width: 528px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(12, 112, 242, 0.90);
+    box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    margin-top: 10%;
+}
+
+#but:hover{
+    transform: translateY(-3px);
+    transition-duration:0.5s;
+    cursor: pointer;
+}
